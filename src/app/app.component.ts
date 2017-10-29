@@ -13,5 +13,15 @@ export class AppComponent {
   perce = 0.834;
   salario = 1643.90;
 
+  heroe = {
+    nombre:"Logan",
+    clave: "Wolverine",
+    edad: 500,
+    direccion:{
+      calle:"Primera",
+      casa:"19"
+    }
+  }
+
 
 }
