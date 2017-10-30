@@ -130,7 +130,7 @@
       <tr>
         <td> {{ nombre2 }} </td>
         <td> capitalizado </td>
-        <td> {{ nombre2 | capitalizado:false}} </td>
+        <td> {{ nombre2 | capitalizado:false }} </td>
       </tr>
 
 
@@ -144,6 +144,11 @@
 
   <h4>JSON</h4>
   <pre> {{heroe | json }} </pre>
+
+  <h4>Youtube <small>video</small></h4>
+  <hr>
+  <iframe width="560" height="315" [src]="video | domseguro: 'https://www.youtube.com/embed/' " frameborder="0" gesture="media" allowfullscreen></iframe>
+
 </div>
 
 <br>
